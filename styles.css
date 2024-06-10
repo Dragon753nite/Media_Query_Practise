@@ -17,4 +17,25 @@
 }
 .container .text {
   margin-bottom: 1rem;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    background-color: #bee1e6;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    background-color: #52b788;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    background-color: #fff1e6;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    background-color: #cdb4db;
+  }
 }/*# sourceMappingURL=styles.css.map */

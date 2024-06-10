@@ -1,3 +1,13 @@
+$color-1 : #cdb4db ; // Mobile
+$color-2 : #fff1e6 ; // Tablet
+$color-3 : #52b788 ; // Laptop
+$color-4 : #bee1e6 ; // Desktop
+
+$mobile  : 576px;
+$tablet  : 768px;
+$laptop  : 992px; 
+$desktop : 1200px;
+
 *{
     padding: 0;
     margin: 0;
@@ -18,5 +28,29 @@
 
     .text{
         margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: $desktop) {
+    .container{
+        background-color: $color-4;
+    }
+}
+
+@media (max-width: $laptop) {
+    .container{
+        background-color: $color-3;
+    }
+}
+
+@media (max-width: $tablet) {
+    .container{
+        background-color: $color-2;
+    }
+}
+
+@media (max-width: $mobile) {
+    .container{
+        background-color: $color-1;
     }
 }
